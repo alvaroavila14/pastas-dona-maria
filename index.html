@@ -42,14 +42,16 @@
 
 <body class="page-dark">
     <div class="preloader">
-    <div class="spinner">
-        <div class="bounce1"></div>
-        <div class="bounce2"></div>
-        <div class="bounce3"></div>
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
     </div>
-</div>
+    
     <!-- Document Wrapper
 	============================================= -->
+    
     <div id="wrapper" class="wrapper clearfix">
 <header id="navbar-spy" class="header header-2 header-transparent header-bordered header-fixed">
     <nav id="primary-menu" class="navbar navbar-fixed-top">
@@ -509,7 +511,7 @@
                         data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
 						data-splitout="none" 
 						data-responsive_offset="on">
-						<div class="slide--headline">Para los que estan hechos de otra pasta</div>
+						<div class="slide--headline">Para quienes estan hechos de otra pasta</div>
 					</div>
 					
 					<!-- LAYER NR. 3 -->
@@ -674,7 +676,38 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Ravioles</h3>
-                    
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#raviolesModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="raviolesModal" tabindex="-1" role="dialog" aria-labelledby="raviolesModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="raviolesModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b>Caseros: </b>Carne, verdura y queso</p>
+                                        <p> <b>Especiales: </b>Verdura, pollo y queso</p>
+                                        <p> <b>Serranos: </b>Jamón serrano, espinaca y provolone</p>
+                                        <p> Pollo y jamón</p>
+                                        <p> Ricota</p>
+                                        <p> Ricota, mozarella y albahaca</p>
+                                        <P>Ricota y espinaca</P>
+
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -690,7 +723,33 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Sorrentinos</h3>
-           
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#sorrentinosModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="sorrentinosModal" tabindex="-1" role="dialog" aria-labelledby="sorrentinosModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="sorrentinosModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p>De mozarella, queso y jamón</p>
+                                        <p>De jamón y queso</p>
+                                        <p><b> Tres quesos: </b>Mozarella, parmesano y roquefort</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -706,7 +765,35 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Pasta hecha a mano</h3>
-            
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#pastaModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="pastaModal" tabindex="-1" role="dialog" aria-labelledby="pastaModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="pastaModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> Ravioles</p>
+                                        <p> Sorrentinos</p>
+                                        <p> Capelletti</p>
+                                        <p> Tortelletti</p>
+                                        <p></p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -722,7 +809,32 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Fideos caseros</h3>
-                 
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#fideosModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="fideosModal" tabindex="-1" role="dialog" aria-labelledby="fideosModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="fideosModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b>* Los fideos vienen listos para hervir por aproximadamente 15' o 20'</b></p>
+                                        <p> Al huevo</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -738,7 +850,33 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Canelones</h3>
-                  
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#canelonesModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="canelonesModal" tabindex="-1" role="dialog" aria-labelledby="canelonesModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="canelonesModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b>Tradicionales: </b>carne, verdura y queso</p>
+                                        <p> <b>Especiales: </b>espinaca y mozarella</p>
+                                        <p> Calabaza</p>
+                                        <p> Jamón y mozarella</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -755,7 +893,35 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Pre-pizzas</h3>
-                      
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#prepizzaModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="prepizzaModal" tabindex="-1" role="dialog" aria-labelledby="prepizzaModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="prepizzaModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b> *La masa es tamaño grande</b></p>
+                                        <p> Mozarella</p>
+                                        <p> Jamón y mozarella</p>
+                                        <p> Jamón y tomate</p>
+                                        <p> Aceitunas, tomates, jamon y mozarella</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -771,7 +937,35 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Ñoquis</h3>
-                 
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#noquisModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="noquisModal" tabindex="-1" role="dialog" aria-labelledby="noquisModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="noquisModalLabel" style="color: #fd4b4e;">Nuestras variedades para los 29</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> Calabaza y crema</p>
+                                        <p> Papa y crema</p>
+                                        <p> Papa y espinaca</p>
+                                        <p> De ricota</p>
+                                        <p> De ricota y queso</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -787,7 +981,35 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Tapas para lasagna</h3>
-                     
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#lasagnaModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="lasagnaModal" tabindex="-1" role="dialog" aria-labelledby="lasagnaModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="lasagnaModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b>Podés hacerlas de: </b></p>
+                                        <p> Carne, ricota y jamón</p>
+                                        <p> Espinaca, ricota y jamón</p>
+                                        <p> Calabaza, ricota y espinaca</p>
+                                        <p> A la bolognesa</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -803,7 +1025,35 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Tallarines</h3>
-                
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#tallarinModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="tallarinModal" tabindex="-1" role="dialog" aria-labelledby="tallarinModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="tallarinModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> Tradicional con huevo</p>
+                                        <p> Caseros al huevo</p>
+                                        <p> Caseros de espinaca</p>
+                                        <p> A la crema</p>
+                                        <p> Macarrones</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -822,7 +1072,36 @@
                         </div>
                         <div class="dish--content text--center">
                             <h3 class="dish--title text--center">Tapas para empanadas</h3>
-                        
+                            <br>
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#empanadasModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="empanadasModal" tabindex="-1" role="dialog" aria-labelledby="empanadasModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="empanadasModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b>Podés hacerlas de:</b></p>
+                                        <p> Carne</p>
+                                        <p> Pollo</p>
+                                        <p> Jamón y queso</p>
+                                        <p> Humita</p>
+                                        <p> Verdura</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -840,12 +1119,48 @@
                     
                         <div class="dish--img">
                             <img src="assets/images/menu/menu-mixed/tartas.jpg" alt="Tartas">
-                        </div>
-                        <div class="dish--content text--center">
-                            <h3 class="dish--title text--center">Tartas</h3>
                             
                         </div>
-                    </a>
+                        <div class="dish--content text--center">
+                            
+                            <h3 class="dish--title text--center">Tartas</h3>
+                            <br>
+                            <!--Acciona modal-->
+                            <button type="button" class="btn btn--secondary" data-toggle="modal" data-target="#tartasModal">
+                                Ver más
+                            </button>
+                            <!-- Modal Tartas -->
+                            <div class="modal fade" id="tartasModal" tabindex="-1" role="dialog" aria-labelledby="tartasModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 id="tartasModalLabel" style="color: #fd4b4e;">Nuestras variedades</h5>
+                                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>-->
+                                    </div>
+                                    <div class="modal-body">
+                                        <br>
+                                        <p> <b>Pascualina</b></p>
+                                        <p> Calabaza</p>
+                                        <p> Zapallito</p>
+                                        <p> Atún</p>
+                                        <p> Pollo</p>
+                                        <p> Espinaca</p>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            
+                            
+                        </div>
+                        
+                    
                 </div>
                 <!-- .dish end -->
             </div>
@@ -1281,20 +1596,31 @@ tus principales<br>dudas.
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-5 pl-0">
                             <div class="specials--img">
-                                <img src="assets/images/specials/7.jpg" alt="Pastas Doña Rosa">
+                                <img src="assets/images/specials/7.jpg" alt="Pastas Doña Maria">
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-7">
                             <div class="dishes-wrapper-inner">
                                 <!-- Dish #1 -->
                                 <div class="dish-panel">
-                                    <p class="dish--desc text--left">Vendemos por mayor! ?</p>
-                                    <p class="dish--desc text--left">Vendemos por menor! ?</p>
-
-                        
-
-
-                                    
+                                    <br>
+                                    <p class="dish--desc text--center" style="color: red;">¿Se realizan ventas por mayor?</p>
+                                    <br>
+                                    <p class="dish--desc">&nbsp;&nbsp;Si, realizamos ventas por mayor pero para ello comunicate con nosotros.</p>
+                                    <br>
+                                    <p class="dish--desc text--center" style="color: red;">¿Puedo realizar pedidos particulares?</p>
+                                    <br>
+                                    <p class="dish--desc">&nbsp;&nbsp;¡Por supuesto! Pero, al igual que en la pregunta anterior, comunicate con uno de nuestros proveedores.</p>
+                                    <br>
+                                    <p class="dish--desc text--center" style="color: red;">¿Usan productos artificiales?</p>
+                                    <br>
+                                    <p class="dish--desc">&nbsp;&nbsp;No, en Pastas Doña María elaboramos nuestros productos sin hacer uso de aditivos, conservantes ni colorantes.</p>
+                                    <br>
+                                    <p class="dish--desc text--center" style="color: red;">¿Por qué no los encuentro en mi provincia?</p>
+                                    <br>
+                                    <p class="dish--desc">&nbsp;&nbsp;Actualmente cubrimos una gran demanda en las provincias del NOA, principalmente en Jujuy y Salta, pero estamos trabajando
+                                        en llegar a otras provincias del país.</p>
+                                    <br>
                                 </div>
                                 <!-- .dish end -->
                                 <!-- Dish #2 -->
@@ -1341,6 +1667,10 @@ tus principales<br>dudas.
 		
 		
 <!-- .testimonial3 end -->
+
+<!--MODAL BOOTSTRAP-->
+
+
 
 <!-- footer#1
 ============================================= -->

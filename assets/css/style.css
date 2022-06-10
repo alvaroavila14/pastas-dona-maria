@@ -3206,13 +3206,13 @@ table tbody tr td {
 .spinner .bounce1 {
 	-webkit-animation-delay: -0.32s;
 	animation-delay: -0.32s;
-	background-color: #FF902D;
+	background-color: #F7E900;
 }
 
 .spinner .bounce2 {
 	-webkit-animation-delay: -0.16s;
 	animation-delay: -0.16s;
-	background-color: #F7E900;
+	background-color: #df1717;
 }
 @-webkit-keyframes sk-bouncedelay {
  0%,  80%,  100% {
